@@ -86,3 +86,5 @@ if __name__ == "__main__":
             time.sleep(float(os.environ.get('TIME_INTERVAL') or 600)) 
     else:
         print('Please configure environment variables properly!')
+        print('Dev By Itsme.jimmy Instagram To Discord')
+        print(' Discord Invite https://discord.gg/MpCp4mtyYz')
