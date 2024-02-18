@@ -87,4 +87,4 @@ if __name__ == "__main__":
     else:
         print('Please configure environment variables properly!')
         print('Dev By Itsme.jimmy Instagram To Discord')
-        print(' Discord Invite https://discord.gg/MpCp4mtyYz')
+        print('Discord Invite https://discord.gg/MpCp4mtyYz')
