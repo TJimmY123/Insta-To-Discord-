@@ -80,7 +80,7 @@ def main():
 
 
 if __name__ == "__main__":
-    if os.environ.get('IG_USERNAME') != None and os.environ.get('https://discord.com/api/webhooks/1208517101011075082/m5MwVwXqxa_N1IsTla78N-Wm0XFiGNe1cbh49YQEETr_K5qMG5e4QFRwSYFDWxlC2kxZ') != None:
+    if os.environ.get('IG_USERNAME') != None and os.environ.get('') != None:
         while True:
             main()
             time.sleep(float(os.environ.get('TIME_INTERVAL') or 600)) 
