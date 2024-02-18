@@ -73,7 +73,7 @@ def main():
         else:
             os.environ["LAST_IMAGE_ID"] = get_last_publication_url(html)
             print("New image to post in discord.")
-            webhook(os.environ.get("https://discord.com/api/webhooks/1208517101011075082/m5MwVwXqxa_N1IsTla78N-Wm0XFiGNe1cbh49YQEETr_K5qMG5e4QFRwSYFDWxlC2kxZ"),
+            webhook(os.environ.get("you webhock"),
                     get_instagram_html(INSTAGRAM_USERNAME))
     except Exception as e:
         print(e)
